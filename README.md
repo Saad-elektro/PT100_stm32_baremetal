@@ -30,4 +30,4 @@ Various communication protocol was implemented in this project :
 the ADC driver was developped fully with bare metal programming, which allows a direct interaction with the hardware level.
 
 
-The system provides a Wi-Fi connectivity to watch the temperature measurements from a remote terminal, the firmware is still on development.
+The system provides a Wi-Fi connectivity to watch the temperature measurements from a remote terminal, the firmware is still in progress.
