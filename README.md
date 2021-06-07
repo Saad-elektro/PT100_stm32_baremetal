@@ -31,3 +31,7 @@ the ADC driver was developped fully with bare metal programming, which allows a 
 
 
 The system provides a Wi-Fi connectivity to watch the temperature measurements from a remote terminal, the firmware is still in progress.
+
+![Photo](https://user-images.githubusercontent.com/58118111/121067061-81c9c900-c7c2-11eb-8e8d-f9fbc34c4a85.jpg)
+![Photo2](https://user-images.githubusercontent.com/58118111/121067191-aa51c300-c7c2-11eb-8193-002d495c1365.jpg)
+
