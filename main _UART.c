@@ -41,14 +41,6 @@ int main (void){
   GPIOA->BSRR |= GPIO_BSRR_BR4; // Set CS Low 	
 	 DelayTimerUs(2);
 	 
-/*	 
-	// Solution 1---------------- 
-  SPI_Send(RREG|0x00<<2);
-	//DelayTimerUs(2);
-	reg0 = SPI_Receive();
-	reg0 = SPI_Receive();
-//-------------------------------	
-*/
 
   reg0 = Read_register(config_REG0_ADDR);
 	DelayTimerUs(5);
@@ -75,20 +67,7 @@ int main (void){
 	GPIOA->BSRR |= GPIO_BSRR_BR4; // Set CS Low
 	
 	while(1){
-	/*
-		// Read back Register values
-		
-	  printf_( "0x%02x \n" ,reg0);
-    DelayTimerUs(1000000);
-    printf_( "0x%02x \n" ,reg1);
-   DelayTimerUs(1000000);
-   printf_( "0x%02x \n" ,reg2);
-   DelayTimerUs(1000000);
-	 
-   printf_( "0x%02x\n" ,reg3);
-   DelayTimerUs(1000000);
 
-*/
 		
 		GPIOA->BSRR |= GPIO_BSRR_BR4; // Set CS Low 
 		DelayTimerUs(100);
@@ -108,7 +87,7 @@ int main (void){
 		DelayTimerUs(2000000);
 		DelayTimerUs(2000000);
 		
-		printf_(" Temperature %.4f °C \n\r",  temp ) ;
+		printf_(" Temperature %.4f Â°C \n\r",  temp ) ;
 		DelayTimerUs(2000000);
 		DelayTimerUs(2000000);
 		DelayTimerUs(2000000);
