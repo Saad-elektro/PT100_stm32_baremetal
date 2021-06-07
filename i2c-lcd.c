@@ -59,7 +59,6 @@ void lcd_put_cur(int row, int col)
             col |= 0xC0;
             break;
     }
-
     lcd_send_cmd (col);
 }
 
