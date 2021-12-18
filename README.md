@@ -3,7 +3,7 @@ Temperature sensor using 24-bit ADC_ ADS1220
 
 It's a prototype for an industrial temperature sensor, based on 3-wire RTD PT100, which offers
 the possibility to read the measurements in situ or from a remote terminal,
-can be used to keep the traceability of temperature storage for foodstuffs.
+can be used to keep the traceability of temperature storage for products.
 
 it can operates from -30°C to 120°C temperature range,
 Ensure accuracy measurements +/-0.5°C.
